@@ -23,5 +23,6 @@ export default {
 </script>
 
 <style lang="scss">
-
+  @import "./assets/style/generale.scss";
+  @import "./assets/style/variabili.scss";
 </style>
