@@ -1,7 +1,6 @@
 <template>
     <header>
         <div class="contenitore">
-    
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
@@ -13,7 +12,9 @@
                     </li>
                 </ul>
             </nav>
-
+        </div>
+        <div class="jumbo">
+          
         </div>
     </header>  
 </template>
@@ -115,5 +116,12 @@ export default {
         }
       }
     }
+  }
+  .jumbo{
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
   }
 </style>
