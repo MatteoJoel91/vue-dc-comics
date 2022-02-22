@@ -109,6 +109,7 @@ export default {
             border-bottom: solid 6px #0282f9;
           }
           &:hover{
+            color: #0282f9;
             border-bottom: solid 6px #0282f9;
           }
         }

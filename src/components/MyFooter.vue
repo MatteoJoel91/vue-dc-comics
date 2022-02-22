@@ -132,12 +132,21 @@ export default {
             display: flex;
             justify-content: center;
             margin: 0 auto;
+            z-index: 90;
+            position: relative;
 
             .contenitore-cards{
                 display: flex;
                 align-items: center;
                 color: white;
                 margin: 0 30px;
+                padding: 0 5px;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: #0268c7;
+                    border-radius: 20px;
+                }
             }
 
             img{
