@@ -161,6 +161,8 @@ export default {
     .footer-mid{
         width: 100%;
         background-image: url('../assets/img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 450px;
 
         .logo-bg{
