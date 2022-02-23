@@ -83,6 +83,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+  @import "../assets/style/variabili.scss";
+
   .contenitore{
     width: 70%;
     margin: auto;
@@ -103,15 +106,15 @@ export default {
         a{
           margin: 0 5px;
           text-decoration: none;
-          color: #1c1c1c;
+          color: $coloreBackgroundScuro;
           padding: 35px 5px;
           &.active{
-            color: #0282f9;
-            border-bottom: solid 6px #0282f9;
+            color: $coloreBlu;
+            border-bottom: solid 6px $coloreBlu;
           }
           &:hover{
-            color: #0282f9;
-            border-bottom: solid 6px #0282f9;
+            color: $coloreBlu;
+            border-bottom: solid 6px $coloreBlu;
           }
         }
       }

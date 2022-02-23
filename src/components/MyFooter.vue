@@ -122,9 +122,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+    @import "../assets/style/variabili.scss";
+
     footer{
         width: 100%;
-        background-color: #0282f9;
+        background-color: $coloreBlu;
 
         .footer-up{
             width: 70%;
@@ -138,13 +141,13 @@ export default {
             .contenitore-cards{
                 display: flex;
                 align-items: center;
-                color: white;
+                color: $coloreBianco;
                 margin: 0 30px;
                 padding: 0 5px;
 
                 &:hover{
                     cursor: pointer;
-                    background-color: #0268c7;
+                    background-color: $coloreBluHover;
                     border-radius: 20px;
                 }
             }
@@ -183,7 +186,7 @@ export default {
                 }
 
                 h3{
-                    color: white;
+                    color: $coloreBianco;
                     margin: 15px 0px;
                 }
                 ul{
@@ -193,10 +196,10 @@ export default {
                     padding: 5px 0px;
                 }
                 a{
-                    color: #767676;
+                    color: $coloreGrigio;
                     text-decoration: none;
                     &:hover{
-                        color: #0282f9;
+                        color: $coloreBlu;
                         cursor: pointer;
                     }
                 }
@@ -205,7 +208,7 @@ export default {
     }
     .footer-bot{
         width: 100%;
-        background-color: #303030;
+        background-color: $coloregrigioScuro;
         height: 100px;
         z-index: 90;
         position: relative;
@@ -219,13 +222,13 @@ export default {
             margin: 0 auto;
             justify-content: space-between;
             button{
-                background-color: #303030;
-                color: white;
-                border: solid 2px #0282f9;
+                background-color: $coloregrigioScuro;
+                color: $coloreBianco;
+                border: solid 2px $coloreBlu;
                 padding: 10px 10px;
 
                 &:hover{
-                    background-color: #767676;
+                    background-color: $coloreGrigio;
                     cursor: pointer;
                 }
             }
@@ -234,7 +237,7 @@ export default {
                 align-items: center;
 
                 a{
-                    color: #0282f9;
+                    color: $coloreBlu;
                     text-decoration: none;
                     margin-right: 10px;
                 }
